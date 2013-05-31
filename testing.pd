@@ -1,14 +1,24 @@
-#N canvas 1326 25 1005 927 10;
+#N canvas 206 254 1005 927 10;
 #X obj 939 -16310 tgl 50 0 empty empty empty 17 7 0 10 -262144 -1 -1
-0 1;
+1 1;
 #X msg 925 -16233 \; pd dsp \$1;
 #X floatatom 956 -16256 5 0 0 0 - - -;
 #X obj 913 -15653 final_gain~;
 #X obj 652 -15643 osciliscope~;
 #X obj 11 -16309 sequencer;
 #X obj 36 -16152 operator~;
-#X obj 246 -16152 operator~;
+#X obj 247 -16152 operator~;
+#X obj 458 -16152 operator~;
+#X obj 669 -16152 operator~;
 #X connect 0 0 1 0;
 #X connect 0 0 2 0;
-#X connect 5 0 6 0;
+#X connect 5 1 6 0;
+#X connect 5 1 7 0;
+#X connect 5 1 8 0;
+#X connect 5 1 9 0;
 #X connect 6 0 7 1;
+#X connect 7 0 8 1;
+#X connect 8 0 9 1;
+#X connect 9 0 3 0;
+#X connect 9 0 3 1;
+#X connect 9 0 4 0;
