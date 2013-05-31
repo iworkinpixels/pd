@@ -1,0 +1,5 @@
+#N canvas 142 63 552 500 10;
+#X obj 280 -65 adsr~;
+#X obj 406 207 final_gain~;
+#X connect 0 0 1 0;
+#X connect 0 0 1 1;
