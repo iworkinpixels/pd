@@ -1,6 +1,6 @@
-#N canvas -1127 113 1093 544 10;
+#N canvas 0 113 1093 544 10;
 #X floatatom 150 183 5 0 0 0 - - -;
-#X obj 150 152 knob 22 22 60 240 0 0 empty empty empty 0 -8 0 8 -262144
+#X obj 150 152 knob 22 22 30 240 0 0 empty empty empty 0 -8 0 8 -262144
 -1 -1 0 1;
 #X text 151 131 BPM;
 #X obj -21 200 /;
@@ -9,7 +9,7 @@
 #X msg -57 153 60000;
 #X obj -68 129 loadbang;
 #X obj 34 130 metro;
-#X obj 108 130 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 108 130 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X msg 66 152 0;
 #X obj 35 177 f 0;
@@ -81,29 +81,29 @@
 #X floatatom 711 183 5 0 0 0 - - -;
 #X obj -21 226 / 2;
 #X obj 185 152 knob 22 22 56 68 0 0 empty empty empty 0 -8 0 8 -262144
--1 -1 900 1;
+-1 -1 800 1;
 #X obj 220 151 knob 22 22 56 68 0 0 empty empty empty 0 -8 0 8 -262144
--1 -1 700 1;
+-1 -1 400 1;
 #X obj 255 152 knob 22 22 56 68 0 0 empty empty empty 0 -8 0 8 -262144
--1 -1 0 1;
+-1 -1 300 1;
 #X obj 290 151 knob 22 22 56 68 0 0 empty empty empty 0 -8 0 8 -262144
--1 -1 0 1;
+-1 -1 300 1;
 #X obj 326 151 knob 22 22 56 68 0 0 empty empty empty 0 -8 0 8 -262144
--1 -1 0 1;
+-1 -1 400 1;
 #X obj 361 150 knob 22 22 56 68 0 0 empty empty empty 0 -8 0 8 -262144
--1 -1 0 1;
+-1 -1 700 1;
 #X obj 396 151 knob 22 22 56 68 0 0 empty empty empty 0 -8 0 8 -262144
--1 -1 0 1;
+-1 -1 300 1;
 #X obj 431 150 knob 22 22 56 68 0 0 empty empty empty 0 -8 0 8 -262144
--1 -1 0 1;
+-1 -1 300 1;
 #X obj 466 152 knob 22 22 56 68 0 0 empty empty empty 0 -8 0 8 -262144
--1 -1 0 1;
+-1 -1 200 1;
 #X obj 501 151 knob 22 22 56 68 0 0 empty empty empty 0 -8 0 8 -262144
--1 -1 0 1;
+-1 -1 400 1;
 #X obj 536 152 knob 22 22 56 68 0 0 empty empty empty 0 -8 0 8 -262144
--1 -1 0 1;
+-1 -1 500 1;
 #X obj 571 151 knob 22 22 56 68 0 0 empty empty empty 0 -8 0 8 -262144
--1 -1 0 1;
+-1 -1 500 1;
 #X obj 607 151 knob 22 22 56 68 0 0 empty empty empty 0 -8 0 8 -262144
 -1 -1 0 1;
 #X obj 642 150 knob 22 22 56 68 0 0 empty empty empty 0 -8 0 8 -262144

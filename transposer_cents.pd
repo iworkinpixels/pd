@@ -1,0 +1,21 @@
+#N canvas 0 22 684 455 10;
+#X obj 94 217 pow 0.0833333;
+#X obj 94 179 t b f;
+#X msg 94 198 2;
+#X obj 94 136 inlet;
+#X obj 94 236 outlet;
+#X text 221 192 (basically \, a frequency shifter with input in semitones
+and output in the number necessary to multiply the freq by);
+#X obj 135 136 loadbang;
+#X obj 135 155 f \$1;
+#X text 224 155 transposer - outputs the number necessary to shift
+a frequency by the cents provided via the inlet.;
+#X obj 169 198 / 1200;
+#X connect 0 0 4 0;
+#X connect 1 0 2 0;
+#X connect 1 1 9 0;
+#X connect 2 0 0 0;
+#X connect 3 0 1 0;
+#X connect 6 0 7 0;
+#X connect 7 0 1 0;
+#X connect 9 0 0 1;
