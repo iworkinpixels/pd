@@ -1,0 +1,2 @@
+#N canvas 507 22 770 393 10;
+#X obj 687 160 final_gain~;
